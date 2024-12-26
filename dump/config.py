@@ -64,10 +64,10 @@ class Config(object):
     WORKERS = 8 # Number of subthreads to use. Set as number of threads your processor uses
     ALLOW_EXCL = True
     # For ARQ based Modules, use public ARQ KEY if you dont have provided by @ISHIKKI_AKABANE
-    ARQ_API_KEY = "ZWXCEZ-RTVXHT-NOVURC-FHCFZD-ARQ"
+    ARQ_API_KEY = "VNXEHU-FAHIEH-NOIIBS-AXSBTV-ARQ"
     # For SPAMWATCH ANTISPAM SYSTEM, USE PUBLIC ONE IF YOU DONT HAVE
     SPAMWATCH_SUPPORT_CHAT = "@DEVSLAB"
-    SPAMWATCH_API = "XChWQMRDLpKVqoirR_cMDqlrGwiTn1bY1pYhTyGeVv7~T2gVG1JRyZFvlZGq4gtG"
+    SPAMWATCH_API = "gXXebBSsXyKzYYw8TKNhpYnHexhfo~EdiEYEhme2cBTk8NUiawpOCE4hELUz8j7y"
 
     # Important for webhooks
     WEBHOOK = False
