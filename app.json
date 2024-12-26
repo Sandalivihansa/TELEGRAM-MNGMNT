@@ -17,17 +17,17 @@
     "TOKEN": {
        "description": "Your bot token. Get one from @BotFather",
        "required": true,
-       "value": ""
+       "value": "7332398186:AAHG5L3MF-8BtP4ouR_9a_T2tBgje_GegN0"
     },
     "API_ID": {
        "description": "Get API_ID from my.telegram.org, used for telethon and pyrogram",
        "required": true,
-       "value": ""
+       "value": "5047271"
     },
     "API_HASH": {
        "description": "Get API_HASH from my.telegram.org, used for telethon and pyrogram",
        "required": true,
-       "value": ""
+       "value": "047d9ed308172e637d4265e1d9ef0c27"
     },     
     "DATABASE_URL": {
        "description": "Your postgres sql db.",
@@ -37,11 +37,11 @@
     "OWNER_ID": {
        "description": "Your user ID as an integer.",
        "required": true,
-       "value": ""
+       "value": "1451534504"
     },
     "OWNER_USERNAME": {
        "description": "Your username without the @",
-       "value": "Ishikki_akabane"
+       "value": "@deweni2"
     },
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username",
@@ -100,7 +100,7 @@
     "MONGO_DB_URI": {
        "description": "Your Mongo DB url.",
        "required": true,
-       "value": ""
+       "value": "mongodb+srv://smoka:smoka@cluster0.hyxdn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "SUDO_USERS": {
        "description": "A space separated list of user IDs who you want to assign as sudo users",
