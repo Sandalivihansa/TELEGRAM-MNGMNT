@@ -25,14 +25,14 @@ class Config:
     DATABASE_URL = os.getenv("DATABASE_URL", "postgres://user:password@host:port/database")
 
     # Logging and Monitoring
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001234567890"))  # Example: -1001234567890 (Private Channel ID)
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1002325247996"))  # Example: -1001234567890 (Private Channel ID)
     
     # Access Control
-    SUDO_USERS = list(map(int, os.getenv("SUDO_USERS", "123456789,987654321").split(',')))
-    OWNER_ID = int(os.getenv("OWNER_ID", "your-owner-id-here"))
+    SUDO_USERS = list(map(int, os.getenv("SUDO_USERS", "123456789,1451534504").split(',')))
+    OWNER_ID = int(os.getenv("OWNER_ID", "1451534504"))
 
     # Optional Extras
-    SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "your-support-chat-username")  # Without '@'
+    SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "hghgjkgjgjk")  # Without '@'
     
     # Additional API integrations
     BLUE_API = os.getenv("BLUE_API", "blue-ishikki-personal")
