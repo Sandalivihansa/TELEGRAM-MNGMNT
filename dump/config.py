@@ -19,7 +19,7 @@ class Config:
     TOKEN = os.getenv("TOKEN", "7332398186:AAHG5L3MF-8BtP4ouR_9a_T2tBgje_GegN0")
     API_ID = int(os.getenv("API_ID", "5047271"))
     API_HASH = os.getenv("API_HASH", "047d9ed308172e637d4265e1d9ef0c27")
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "your-bot-username-here")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "testingplate45_bot")
 
     # Database Configuration
     DATABASE_URL = os.getenv("DATABASE_URL", "postgres://user:password@host:port/database")
@@ -47,12 +47,12 @@ class Config(object):
     # REQUIRED
 
     # Login to https://my.telegram.org and fill in these slots with the details given by it
-    API_ID = 13600724
-    API_HASH = "ee59fd28d0d065c6b7d105082c6a0ba0"
+    API_ID = 5047271
+    API_HASH = "047d9ed308172e637d4265e1d9ef0c27"
 
-    TOKEN = os.environ.get("Token", "")  # BOT TOKEN, get it from @botfather
-    OWNER_ID = "5030730429"  # If you dont know, run @KAZUMABOT and send /id
-    OWNER_USERNAME = "Ishikki_AKABANE" #OWNER Username without @
+    TOKEN = os.environ.get("Token", "7332398186:AAHG5L3MF-8BtP4ouR_9a_T2tBgje_GegN0")  # BOT TOKEN, get it from @botfather
+    OWNER_ID = "5047271"  # If you dont know, run @KAZUMABOT and send /id
+    OWNER_USERNAME = "deweni2" #OWNER Username without @
 
     SUPPORT_CHAT = "DevsLAB"  # Your own group for support, do not add the @
     SUPPORT_ID = -1001856564943 # Your support group's id
