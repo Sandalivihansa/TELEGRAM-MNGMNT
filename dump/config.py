@@ -16,9 +16,9 @@ def get_user_list(key):
 
 class Config:
     # Basic Bot Configuration
-    TOKEN = os.getenv("TOKEN", "your-bot-token-here")
-    API_ID = int(os.getenv("API_ID", "your-api-id-here"))
-    API_HASH = os.getenv("API_HASH", "your-api-hash-here")
+    TOKEN = os.getenv("TOKEN", "7332398186:AAHG5L3MF-8BtP4ouR_9a_T2tBgje_GegN0")
+    API_ID = int(os.getenv("API_ID", "5047271"))
+    API_HASH = os.getenv("API_HASH", "047d9ed308172e637d4265e1d9ef0c27")
     BOT_USERNAME = os.getenv("BOT_USERNAME", "your-bot-username-here")
 
     # Database Configuration
